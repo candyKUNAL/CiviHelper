@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splash"
+    android:background="#FFF9E7"
+    >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="352dp"
+        android:layout_centerInParent="true"
+        android:scrollbarFadeDuration="2000"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="64dp"
+        android:src="@drawable/raterlogo" />
+
+    <TextView
+        android:layout_width="186dp"
+        android:scrollbarFadeDuration="2000"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="223dp"
+        android:layout_marginTop="131dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="50dp"
+        android:text="By - Candy"
+        android:fontFamily="@font/magnetob"
+        android:textAlignment="center"
+        android:textColor="#FFFF79E9"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:scrollbarFadeDuration="2000"
+        android:layout_height="91dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="598dp"
+        android:text="Rate To Grow Togather"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="#FFEE0000"
+        android:fontFamily="@font/snap___"
+
+
+        />
+
+</RelativeLayout>
